@@ -10,6 +10,7 @@ while x>1:
     else:
         x -=1
     if prime:
+        # prime number
         print('The number',num,'is prime')
     else:
       print('The number',num,'is Not prime')  
