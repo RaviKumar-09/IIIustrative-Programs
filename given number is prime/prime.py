@@ -12,5 +12,5 @@ while x>1:
     if prime:
         print('The number',num,'is prime')
     else:
-        
+      print('The number',num,'is Not prime')  
         
