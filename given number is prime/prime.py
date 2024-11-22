@@ -1,3 +1,4 @@
+# display give number is prime number
 num = int(input('Enter the number: '))
 import math
 prime = True
