@@ -1,3 +1,4 @@
+# Input Value
 num = input('Enter two numbers separated by space:')
 # number one
 num1= int(num.split()[0])
