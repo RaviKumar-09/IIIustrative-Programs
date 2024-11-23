@@ -1,4 +1,5 @@
 num = input('Enter two numbers separated by space:')
+# number one
 num1= int(num.split()[0])
 num2 = int(num.split()[1])
 while num2 !=0 :
