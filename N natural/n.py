@@ -6,3 +6,4 @@ def findAvg(n):
         avg = float(sum/n)
         print('Sum = ', sum)
         return avg
+print('Average of',num,'natural numbers', findAvg(num))
