@@ -5,3 +5,4 @@ def findAvg(n):
         sum = sum + num
         avg = float(sum/n)
         print('Sum = ', sum)
+        return avg
