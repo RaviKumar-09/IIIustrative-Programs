@@ -8,4 +8,5 @@ def countVowels(str):
         st == 'o' or st == 'O' or\
         st == 'u' or st == 'U':
         count +=1
-        
+    return count
+    
