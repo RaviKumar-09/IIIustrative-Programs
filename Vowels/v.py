@@ -9,4 +9,5 @@ def countVowels(str):
         st == 'u' or st == 'U':
         count +=1
     return count
+print(text)
     
