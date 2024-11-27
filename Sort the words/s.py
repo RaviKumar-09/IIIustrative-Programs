@@ -8,5 +8,6 @@ for w in word:
 print('Number of words in the entered text is : ')
 word.sort()
 print('The words in sorted order are: ')
+# for loop for print w words
 for w in word:
     print(w)
