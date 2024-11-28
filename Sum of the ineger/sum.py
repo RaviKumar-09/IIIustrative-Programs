@@ -6,3 +6,4 @@ for n in num:
      intnum = int()
      sum = sum + intnum
     except ValueError:
+     print('Entry could be converted to interger. Not valid!', n)
