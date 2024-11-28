@@ -5,3 +5,4 @@ for n in num:
     try:
      intnum = int()
      sum = sum + intnum
+    except ValueError:
