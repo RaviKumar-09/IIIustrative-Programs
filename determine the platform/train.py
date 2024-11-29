@@ -1,0 +1,1 @@
+train_name = input("Enter the train name or number: ")
