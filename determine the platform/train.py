@@ -1,5 +1,6 @@
 # Program to find the platform for a train
 
+
 train_name = input("Enter the train name or number: ")
 
 # Example train details
