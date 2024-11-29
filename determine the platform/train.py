@@ -5,6 +5,4 @@ train_platforms = {
     "56789": "Platform 2",
      "Rajdhani Express": "Platform 3",
      "Shatabdi Express": "Platform 4"
-
-
 }
