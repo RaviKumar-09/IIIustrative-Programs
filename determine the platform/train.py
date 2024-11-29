@@ -10,3 +10,4 @@ train_platforms = {
 if train_name in train_platforms:
     print(f"The train '{train_name}' is at {train_platforms[train_name]}.")
 else:
+       print("Sorry, train information is not available. Please check at the inquiry desk.")
