@@ -8,7 +8,7 @@ train_platforms = {
     "123485": "Platform 1",
     "567898": "Platform 2",
      "Rajdhani  Express": "Platform 3",
-     "Shatabdi Express": "Platform 4"
+     "Shatabdi  Express": "Platform 4"
 }
 
 if train_name in train_platforms:
