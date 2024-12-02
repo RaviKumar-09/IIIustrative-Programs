@@ -6,3 +6,4 @@ def gcd(a, b):
     return gcd(b, a % b)
 
 # Function to count maximum persons
+# that can be placed in a row
