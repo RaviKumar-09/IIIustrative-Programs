@@ -12,3 +12,4 @@ def maximumRowValue(n, m):
     return gcd(n, m)
 
 # Driver Code
+if __name__ == '__main__':
