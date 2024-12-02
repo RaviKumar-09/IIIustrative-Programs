@@ -17,3 +17,5 @@ if __name__ == '__main__':
      # Input
     N = 4
     M = 2
+
+# Function to count maximum
