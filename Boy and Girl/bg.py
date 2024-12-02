@@ -21,3 +21,4 @@ if __name__ == '__main__':
 # Function to count maximum
 # persons that can be placed in a row
     print (maximumRowValue(N, M))
+    
