@@ -19,3 +19,4 @@ if __name__ == '__main__':
     M = 2
 
 # Function to count maximum
+# persons that can be placed in a row
