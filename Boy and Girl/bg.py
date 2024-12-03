@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
      # Input
     N = 100
-    M = 0
+    M = 10
 
 # Function to count maximum
 # persons that can be placed in a row
