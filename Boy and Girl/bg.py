@@ -15,7 +15,7 @@ def maximumRowValue(n, m):
 if __name__ == '__main__':
 
      # Input
-    N = 0
+    N = 100
     M = 0
 
 # Function to count maximum
