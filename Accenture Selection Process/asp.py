@@ -25,10 +25,21 @@ def technical_round():
     else:
         print("Sorry, you did not pass the technical round.")
         return False
-    def hr_round():
-        print("\nStage 3: HR Interview")
-        questions = [
-            "Tell me about yourself.",
-            "Why do you want to work at Accenture?",
-            "Where do you see yourself in 5 years?",
-            "What are your salary expectations?",
+def hr_round():
+    print("\nStage 3: HR Interview")
+    questions = [
+        "Tell me about yourself.",
+        "Why do you want to work at Accenture?",
+        "Where do you see yourself in 5 years?",
+        "What are your salary expectations?",
+    ]
+    for question in questions:
+        print(f"Question: {question}")
+        input("Your Answer: ")  # Simulate answering questions
+    feedback = input("Did the HR give positive feedback? (yes/no): ").lower()
+    if feedback == "yes":
+        print("Congratulations! You passed the HR round.")
+        return True
+    else:
+        print("Sorry, you did not pass the HR round.")
+        return False
