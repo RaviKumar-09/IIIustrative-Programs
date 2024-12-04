@@ -14,3 +14,14 @@ def technical_round():
         "What is a database schema?",
         "Write a Python program to reverse a string.",
         "What is the difference between TCP and UDP?",
+    ]
+    for question in questions:
+        print(f"Question: {question}")
+        input("Your Answer: ")  # Simulate answering questions
+    feedback = input("Did the interviewer give positive feedback? (yes/no): ").lower()
+    if feedback == "yes":
+        print("Great! You passed the technical round.")
+        return True
+    else:
+        print("Sorry, you did not pass the technical round.")
+        return False
