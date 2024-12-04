@@ -44,3 +44,15 @@ def hr_round():
         print("Sorry, you did not pass the HR round.")
         return False
     
+print("Welcome to Accenture Selection Process Simulation")
+
+if aptitude_test():
+    if technical_round():
+        if hr_round():
+            print("\nCongratulations! You have been selected for Accenture.")
+        else:
+            print("\nThank you for participating. We wish you the best in your career journey.")
+    else:
+        print("\nThank you for participating. We wish you the best in your career journey.")
+else:
+    print("\nThank you for participating. We wish you the best in your career journey.")
