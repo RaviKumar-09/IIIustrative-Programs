@@ -4,3 +4,6 @@ def aptitude_test():
     if score >= 60:
         print("Congratulations! You passed the aptitude test.")
         return True
+    else:
+        print("Sorry, you did not pass the aptitude test.")
+        return False
