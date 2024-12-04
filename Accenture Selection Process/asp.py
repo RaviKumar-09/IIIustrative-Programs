@@ -27,6 +27,7 @@ def technical_round():
     else:
         print("Sorry, you did not pass the technical round.")
         return False
+# HR round
 def hr_round():
     print("\nStage 3: HR Interview")
     questions = [
