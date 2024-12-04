@@ -49,6 +49,7 @@ def hr_round():
     
 print("Welcome to Accenture Selection Process Simulation")
 
+# Main selction process
 if aptitude_test():
     if technical_round():
         if hr_round():
