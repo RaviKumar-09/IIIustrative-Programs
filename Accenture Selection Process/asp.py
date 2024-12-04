@@ -8,6 +8,7 @@ def aptitude_test():
     else:
         print("Sorry, you did not pass the aptitude test.")
         return False
+# Techanical Round
 def technical_round():
     print("\nStage 2: Technical Interview")
     questions = [
