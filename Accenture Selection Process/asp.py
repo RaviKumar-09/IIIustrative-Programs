@@ -25,3 +25,10 @@ def technical_round():
     else:
         print("Sorry, you did not pass the technical round.")
         return False
+    def hr_round():
+        print("\nStage 3: HR Interview")
+        questions = [
+            "Tell me about yourself.",
+            "Why do you want to work at Accenture?",
+            "Where do you see yourself in 5 years?",
+            "What are your salary expectations?",
