@@ -38,7 +38,8 @@ def hr_round():
     ]
     for question in questions:
         print(f"Question: {question}")
-        input("Your Answer: ")  # Simulate answering questions
+        input("Your Answer: ")  
+        # Simulate answering questions
     feedback = input("Did the HR give positive feedback? (yes/no): ").lower()
     if feedback == "yes":
         print("Congratulations! You passed the HR round.")
