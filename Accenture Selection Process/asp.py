@@ -41,7 +41,7 @@ def hr_round():
     for question in questions:
         print(f"Question: {question}")
         input("Your Answer: ") 
-         
+
         # Simulate answering questions
     feedback = input("Did the HR give positive feedback? (yes/no): ").lower()
     if feedback == "yes":
@@ -53,7 +53,7 @@ def hr_round():
     
 print("Welcome to Accenture Selection Process Simulation")
 
-# Main selction process
+# Main selction process 
 if aptitude_test():
     if technical_round():
         if hr_round():
