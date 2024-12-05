@@ -20,7 +20,9 @@ def technical_round():
     ]
     for question in questions:
         print(f"Question: {question}")
-        input("Your Answer: ")  # Simulate answering questions
+        input("Your Answer: ")  
+        
+        # Simulate answering questions
     feedback = input("Did the interviewer give positive feedback? (yes/no): ").lower()
     if feedback == "yes":
         print("Great! You passed the technical round.")
