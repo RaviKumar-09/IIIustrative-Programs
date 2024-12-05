@@ -8,7 +8,7 @@ def aptitude_test():
     else:
         print("Sorry, you did not pass the aptitude test.")
         return False
-        
+
 # Techanical Round
 def technical_round():
     print("\nStage 2: Technical Interview")
@@ -28,6 +28,7 @@ def technical_round():
     else:
         print("Sorry, you did not pass the technical round.")
         return False
+        
 # HR round
 def hr_round():
     print("\nStage 3: HR Interview")
