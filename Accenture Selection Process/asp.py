@@ -28,7 +28,7 @@ def technical_round():
     else:
         print("Sorry, you did not pass the technical round.")
         return False
-        
+
 # HR round
 def hr_round():
     print("\nStage 3: HR Interview")
@@ -40,7 +40,8 @@ def hr_round():
     ]
     for question in questions:
         print(f"Question: {question}")
-        input("Your Answer: ")  
+        input("Your Answer: ") 
+         
         # Simulate answering questions
     feedback = input("Did the HR give positive feedback? (yes/no): ").lower()
     if feedback == "yes":
