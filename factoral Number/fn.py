@@ -1,3 +1,4 @@
+# Input from the user
 num = int(input('Enter the number: '))
 # factorail
 fact = 0
