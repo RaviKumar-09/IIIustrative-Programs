@@ -9,6 +9,7 @@ x = int(math.sqrt(num))
 
 # while loop
 while x>1:
+    # if condtion
     if num%x == 0:
         print(x,'divides',num)
         prime = False
