@@ -6,6 +6,8 @@ num = int(input('Enter the number: '))
 import math
 prime = True
 x = int(math.sqrt(num))
+
+# while loop
 while x>1:
     if num%x == 0:
         print(x,'divides',num)
