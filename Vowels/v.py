@@ -1,5 +1,6 @@
 # input from the user
 text = input('Enter your desired text:')
+# function
 def countVowels(str):
     count = 0
     for st in str:
