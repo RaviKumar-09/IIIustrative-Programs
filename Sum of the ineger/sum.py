@@ -2,6 +2,7 @@
 number = input('Enter a list of numbers separated by space: ')
 # split method
 num = number.split()
+# sum 
 sum = 0
 # for loop
 for n in num:
