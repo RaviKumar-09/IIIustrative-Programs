@@ -12,5 +12,6 @@ for n in num:
      sum = sum + intnum
      # except block
     except ValueError:
+     # print statement
      print('Entry could be converted to interger. Not valid!', n)
 print('Sum of valid integer numbers: ', sum)
