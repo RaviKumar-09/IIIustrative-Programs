@@ -1,5 +1,6 @@
 # Input form the user
 number = input('Enter a list of numbers separated by space: ')
+# split method
 num = number.split()
 sum = 0
 # for loop
