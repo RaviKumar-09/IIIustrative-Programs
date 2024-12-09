@@ -4,3 +4,6 @@ def check_symptom(symptom):
         print("This symptom requires immediate medical attention!")
     else:
         print("Monitor your symptom. If it worsens, consult a doctor.")
+# Example usage
+symptom = input("Enter a symptom: ")
+check_symptom(symptom)
