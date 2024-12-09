@@ -3,7 +3,7 @@ def check_symptom(symptom):
       if symptom.lower() in urgent_symptoms:
         print("This symptom requires immediate medical attention!")
    # else:
-        print("Monitor your symptom. If it worsens, consult a doctor.")
+        # print("Monitor your symptom. If it worsens, consult a doctor.")
 # Example usage
 symptom = input("Enter a symptom: ")
 check_symptom(symptom)
