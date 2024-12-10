@@ -41,3 +41,5 @@ if suggestions:
         )
 else:
     print("\nSorry, no phones match your preferences. Try adjusting your criteria.")
+
+
