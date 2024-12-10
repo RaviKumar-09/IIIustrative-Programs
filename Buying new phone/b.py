@@ -1,5 +1,6 @@
 # A simple Python program to suggest a phone based on your preferences
 
+# List of available phones (you can add more phones with specifications)
 phones = [
     {"name": "iPhone 15", "price": 1200, "camera": 48, "battery": 5000, "storage": 128},
     {"name": "Samsung Galaxy S23", "price": 1000, "camera": 50, "battery": 4500, "storage": 256},
