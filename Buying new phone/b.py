@@ -9,6 +9,7 @@ phones = [
     {"name": "Xiaomi 13", "price": 600, "camera": 54, "battery": 4700, "storage": 128},
 ]
 
+
 def suggest_phone(budget, min_camera, min_battery, min_storage):
     suggested_phones = [
         phone
@@ -19,3 +20,11 @@ def suggest_phone(budget, min_camera, min_battery, min_storage):
         and phone["storage"] >= min_storage
     ]
     return suggested_phones
+
+
+# Input preferences
+print("Welcome to Phone Finder!")
+budget = int(input("Enter your budget (in USD): "))
+min_camera = int(input("Enter the minimum camera quality (in MP): "))
+min_battery = int(input("Enter the minimum battery capacity (in mAh): "))
+min_storage = int(input("Enter the minimum storage (in GB): "))
