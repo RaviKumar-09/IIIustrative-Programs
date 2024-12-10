@@ -8,3 +8,14 @@ phones = [
     {"name": "OnePlus 11", "price": 700, "camera": 50, "battery": 5000, "storage": 256},
     {"name": "Xiaomi 13", "price": 600, "camera": 54, "battery": 4700, "storage": 128},
 ]
+
+def suggest_phone(budget, min_camera, min_battery, min_storage):
+    suggested_phones = [
+        phone
+        for phone in phones
+        if phone["price"] <= budget
+        and phone["camera"] >= min_camera
+        and phone["battery"] >= min_battery
+        and phone["storage"] >= min_storage
+    ]
+    return suggested_phones
