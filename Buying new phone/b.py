@@ -29,3 +29,4 @@ min_battery = int(input("Enter the minimum battery capacity (in mAh): "))
 min_storage = int(input("Enter the minimum storage (in GB): "))
 
 # Get suggestions
+suggestions = suggest_phone(budget, min_camera, min_battery, min_storage)
