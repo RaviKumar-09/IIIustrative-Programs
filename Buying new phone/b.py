@@ -32,3 +32,12 @@ min_storage = int(input("Enter the minimum storage (in GB): "))
 suggestions = suggest_phone(budget, min_camera, min_battery, min_storage)
 
 # Display results
+if suggestions:
+    print("\nHere are the phones that match your preferences:")
+    for phone in suggestions:
+        print(
+            f"- {phone['name']}: ${phone['price']}, Camera: {phone['camera']} MP, "
+            f"Battery: {phone['battery']} mAh, Storage: {phone['storage']} GB"
+        )
+else:
+    print("\nSorry, no phones match your preferences. Try adjusting your criteria.")
