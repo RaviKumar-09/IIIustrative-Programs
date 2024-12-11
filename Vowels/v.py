@@ -14,6 +14,7 @@ def countVowels(str):
         st == 'u' or st == 'U':
         # Count
         count +=1
+    # return
     return count
 # print statemrnt
 print(text, countVowels(text))
