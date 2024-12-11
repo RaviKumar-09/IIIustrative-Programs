@@ -12,6 +12,7 @@ def countVowels(str):
         st == 'i' or st == 'I' or\
         st == 'o' or st == 'O' or\
         st == 'u' or st == 'U':
+        # Count
         count +=1
     return count
 # print statemrnt
