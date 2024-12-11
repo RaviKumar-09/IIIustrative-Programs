@@ -6,6 +6,7 @@ addrs3 = input('Enter Address line 3')
 city = input('Enter city Name:')
 state = input('Enter State Name:')
 pin = input('Enter your Pin code :')
+# print satements
 print(name)
 print('Address:')
 print(addrs1,',')
