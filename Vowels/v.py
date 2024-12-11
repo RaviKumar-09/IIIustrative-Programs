@@ -6,6 +6,7 @@ def countVowels(str):
     # for loop
     for st in str:
         # if condition 
+        # string A
         if st == 'a' or st == 'A' or\
         st == 'e' or st == 'E' or\
         st == 'i' or st == 'I' or\
