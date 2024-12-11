@@ -11,4 +11,5 @@ def check_symptom(symptom):
 # Example usage
 # symptom
 symptom = input("Enter a symptom: ")
+# check_symptom
 check_symptom(symptom)
