@@ -9,5 +9,6 @@ def check_symptom(symptom):
    # else:
         # print("Monitor your symptom. If it worsens, consult a doctor.")
 # Example usage
+# symptom
 symptom = input("Enter a symptom: ")
 check_symptom(symptom)
