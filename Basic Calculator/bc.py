@@ -1,6 +1,7 @@
 # Input numbers from the user
 # Num1
 num1 = float(input("Enter the first number: "))
+# Num2
 num2 = float(input("Enter the second number: "))
 
 # Perform addition
