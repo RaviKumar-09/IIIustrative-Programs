@@ -2,3 +2,4 @@
 fruits = ["apple", "banana", "cherry"]
 # Add a new fruit
 fruits.append("orange")
+# Print the list
