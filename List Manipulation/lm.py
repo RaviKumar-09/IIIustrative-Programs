@@ -4,3 +4,4 @@ fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
 # Print the list
 print("Updated list of fruits:", fruits)
+# Access an item by index
