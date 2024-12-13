@@ -5,3 +5,4 @@ fruits.append("orange")
 # Print the list
 print("Updated list of fruits:", fruits)
 # Access an item by index
+print("The first fruit is:", fruits[0])
