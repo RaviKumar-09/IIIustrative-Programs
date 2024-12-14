@@ -3,3 +3,5 @@ def check_holiday(day):
     weekend_holidays = ["Saturday", "Sunday"]
 
      # Check if the given day is a weekend
+    if day.capitalize() in weekend_holidays:
+        return f"{day} is a holiday!"
