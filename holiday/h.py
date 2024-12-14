@@ -12,3 +12,4 @@ def check_holiday(day):
 day_of_week = input("Enter the day of the week: ").strip()
 
 # Check if it's a holiday or working day
+result = check_holiday(day_of_week)
