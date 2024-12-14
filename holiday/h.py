@@ -7,3 +7,5 @@ def check_holiday(day):
         return f"{day} is a holiday!"
     else:
         return f"{day} is a working day."
+    
+# Input the day of the week
