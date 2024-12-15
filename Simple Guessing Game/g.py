@@ -4,3 +4,4 @@ import random
 secret_number = random.randint(1, 10)
 
 # Ask the user to guess
+guess = int(input("Guess a number between 1 and 10: "))
