@@ -10,3 +10,5 @@ guess = int(input("Guess a number between 1 and 10: "))
 
 if guess == secret_number:
     print("Congratulations! You guessed it!")
+else:
+    print(f"Sorry, the number was {secret_number}.")
