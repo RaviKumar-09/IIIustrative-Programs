@@ -10,3 +10,5 @@ class Dog:
 # Create an object of the class
 
 my_dog = Dog("Buddy")
+
+my_dog.bark()
