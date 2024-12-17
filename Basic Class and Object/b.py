@@ -1,5 +1,6 @@
 # Define a class
 class Dog:
+    # init method
     def __init__(self, name):
         self.name = name
     
