@@ -4,7 +4,7 @@ class Dog:
     def __init__(self, name):
         self.name = name
     
-
+    # self calling
     def bark(self):
         print(f"{self.name} says Woof!")
 
