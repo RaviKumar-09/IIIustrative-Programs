@@ -6,3 +6,5 @@ class Dog:
 
     def bark(self):
         print(f"{self.name} says Woof!")
+
+# Create an object of the class
