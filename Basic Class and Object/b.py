@@ -8,3 +8,5 @@ class Dog:
         print(f"{self.name} says Woof!")
 
 # Create an object of the class
+
+my_dog = Dog("Buddy")
