@@ -6,5 +6,7 @@ word = input("Enter a word: ")
 # if statement
 if word == word[::-1]:
      print(f"{word} is a palindrome!")
+
+# else statement
 else:
      print(f"{word} is not a palindrome.")
