@@ -11,3 +11,4 @@ def print_board():
 # Mark positions and print the board
 
 board[0][0] = "X"
+board[1][1] = "O"
