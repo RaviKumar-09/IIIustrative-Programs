@@ -12,3 +12,4 @@ def print_board():
 
 board[0][0] = "X"
 board[1][1] = "O"
+print_board()
