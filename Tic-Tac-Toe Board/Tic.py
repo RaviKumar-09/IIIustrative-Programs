@@ -9,3 +9,5 @@ def print_board():
         print("-" * 5)
 
 # Mark positions and print the board
+
+board[0][0] = "X"
