@@ -7,3 +7,5 @@ def print_board():
     for row in board:
         print("|".join(row))
         print("-" * 5)
+
+# Mark positions and print the board
