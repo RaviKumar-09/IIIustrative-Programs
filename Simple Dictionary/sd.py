@@ -4,3 +4,5 @@ marks = {"Alice": 85, "Bob": 90, "Charlie": 78}
 marks["David"] = 88
 # Retrieve a value
 print("Bob's marks:", marks["Bob"])
+
+# Iterate over the dictionary
