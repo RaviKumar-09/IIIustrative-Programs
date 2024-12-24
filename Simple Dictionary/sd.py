@@ -6,3 +6,4 @@ marks["David"] = 88
 print("Bob's marks:", marks["Bob"])
 
 # Iterate over the dictionary
+for name, score in marks.items():
