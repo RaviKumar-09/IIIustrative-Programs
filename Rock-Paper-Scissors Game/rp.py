@@ -14,3 +14,4 @@ elif (player1 == "rock" and player2 == "scissors") or \
     print("Player 1 wins!")
 
 else:
+    print("Player 2 wins!")
