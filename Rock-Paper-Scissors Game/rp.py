@@ -8,3 +8,4 @@ player2 = input("Player 2, choose rock, paper, or scissors: ").lower()
 
 if player1 == player2:
     print("It's a tie!")
+elif (player1 == "rock" and player2 == "scissors") or \
