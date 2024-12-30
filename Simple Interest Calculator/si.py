@@ -4,3 +4,4 @@ rate = float(input("Enter the interest rate: "))
 time = float(input("Enter the time in years: "))
 
 # Calculate simple interest
+simple_interest = (principal * rate * time) / 100
