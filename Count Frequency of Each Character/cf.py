@@ -9,3 +9,4 @@ for char in text:
         frequency[char] = 1
 
 print("Character frequencies:")
+for char, count in frequency.items():
