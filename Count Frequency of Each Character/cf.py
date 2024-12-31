@@ -7,3 +7,5 @@ for char in text:
         frequency[char] += 1
     else:
         frequency[char] = 1
+
+print("Character frequencies:")
