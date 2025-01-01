@@ -9,3 +9,4 @@ vowel_count = 0
 # Check each character
 for char in text.lower():
     if char in "aeiou":
+        vowel_count += 1
