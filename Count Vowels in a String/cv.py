@@ -10,3 +10,5 @@ vowel_count = 0
 for char in text.lower():
     if char in "aeiou":
         vowel_count += 1
+    
+print(f"The number of vowels in the string is: {vowel_count}")   
