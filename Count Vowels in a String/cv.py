@@ -7,3 +7,4 @@ vowel_count = 0
 
 
 # Check each character
+for char in text.lower():
