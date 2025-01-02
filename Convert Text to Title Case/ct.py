@@ -2,3 +2,4 @@
 
 text = input("Enter a string: ")
 # Convert to title case
+title_case = text.title()
