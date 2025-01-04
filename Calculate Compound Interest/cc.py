@@ -6,4 +6,6 @@ time = int(input("Enter the time in years: "))
 # Calculate compound interest
 amount = principal * (1 + rate / 100) ** time
 compound_interest = amount - principal
+
+# print statement
 print(f"Compound Interest: {compound_interest}")
