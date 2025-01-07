@@ -4,3 +4,4 @@ word = input("Enter the word to count: ")
 
 # Count occurrences
 count = sentence.lower().split().count(word.lower())
+print(f"The word '{word}' appears {count} times.")
