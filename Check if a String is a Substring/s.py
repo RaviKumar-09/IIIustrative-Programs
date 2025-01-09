@@ -6,3 +6,4 @@ string2 = input("Enter the second string: ")
 if string2 in string1:
      print(f"'{string2}' is a substring of '{string1}'.")
 else:
+    print(f"'{string2}' is not a substring of '{string1}'.")
