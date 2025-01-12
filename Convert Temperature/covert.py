@@ -6,4 +6,4 @@ unit = input("Is this Celsius (C) or Fahrenheit (F)? ").upper()
 # Convert temperature
 if unit == "C":
     converted = (temp * 9/5) + 32
-    
+    print(f"{temp}°C is equal to {converted}°F.")
