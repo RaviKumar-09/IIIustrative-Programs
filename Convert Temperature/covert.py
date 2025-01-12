@@ -9,3 +9,4 @@ if unit == "C":
     print(f"{temp}°C is equal to {converted}°F.")
 elif unit == "F":
     converted = (temp - 32) * 5/9
+    print(f"{temp}°F is equal to {converted}°C.")
