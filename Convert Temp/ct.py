@@ -12,3 +12,4 @@ elif unit == "F":
     converted = (temp - 32) * 5/9
     print(f"{temp}°F is equal to {converted}°C.")
 else:
+    print("Invalid unit!")
