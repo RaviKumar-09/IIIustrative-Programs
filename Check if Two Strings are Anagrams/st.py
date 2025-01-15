@@ -6,3 +6,4 @@ str2 = input("Enter the second string: ")
 # Check for anagrams
 if sorted(str1.lower()) == sorted(str2.lower()):
     print(f"{str1} and {str2} are anagrams.")
+else:
