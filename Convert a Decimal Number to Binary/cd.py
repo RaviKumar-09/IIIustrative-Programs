@@ -1,0 +1,1 @@
+# Input a decimal number
