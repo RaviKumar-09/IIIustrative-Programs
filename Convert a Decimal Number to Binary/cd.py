@@ -1,4 +1,5 @@
 # Input a decimal number
+# decimal
 decimal = int(input("Enter a decimal number: "))
 
 # Convert to binary
