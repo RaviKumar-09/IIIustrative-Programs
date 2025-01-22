@@ -4,3 +4,4 @@ base = float(input("Enter the base: "))
 exponent = int(input("Enter the exponent: "))
 
 # Calculate power
+result = 1
