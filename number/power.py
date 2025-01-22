@@ -11,3 +11,4 @@ for _ in range(abs(exponent)):
 
 if exponent < 0:
     result = 1 / result
+print(f"{base} to the power of {exponent} is: {result}")
