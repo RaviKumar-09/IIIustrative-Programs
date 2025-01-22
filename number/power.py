@@ -5,3 +5,5 @@ exponent = int(input("Enter the exponent: "))
 
 # Calculate power
 result = 1
+
+for _ in range(abs(exponent)):
