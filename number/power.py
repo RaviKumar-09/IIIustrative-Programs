@@ -10,3 +10,4 @@ for _ in range(abs(exponent)):
     result *= base
 
 if exponent < 0:
+    result = 1 / result
