@@ -6,3 +6,4 @@ end = int(input("Enter the end of the range: "))
 
 # Find prime numbers
 print(f"Prime numbers between {start} and {end}:")
+for num in range(start, end + 1):
