@@ -23,7 +23,7 @@ def display_text(text, x=0, y=0, clear=True):
 
 # Main loop
 try:
-    
+
     while True:
         display_text("Welcome to", 0, 0)
         display_text("Smart Notice", 0, 16, clear=False)
@@ -33,6 +33,7 @@ try:
         display_text("Raspberry Pi", 0, 0)
         display_text("OLED Display", 0, 16, clear=False)
         time.sleep(2)
-        
+
+      
 except KeyboardInterrupt:
     print("Program stopped")
