@@ -23,6 +23,7 @@ def display_text(text, x=0, y=0, clear=True):
 
 # Main loop
 try:
+    
     while True:
         display_text("Welcome to", 0, 0)
         display_text("Smart Notice", 0, 16, clear=False)
