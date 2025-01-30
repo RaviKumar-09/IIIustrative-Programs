@@ -17,7 +17,7 @@ oled = ssd1306.SSD1306_I2C(oled_width, oled_height, i2c)
 def display_text(text, x=0, y=0, clear=True):
     if clear:
         # Clear the display
-        oled.fill(0)  # Clear the display
+        oled.fill(0)  
     oled.text(text, x, y)
     oled.show()
 
