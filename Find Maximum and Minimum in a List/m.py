@@ -12,6 +12,7 @@ oled_width = 128
 oled_height = 64
 oled = ssd1306.SSD1306_I2C(oled_width, oled_height, i2c)
 
+
 # Function to display text on OLED
 def display_text(text, x=0, y=0, clear=True):
     if clear:
