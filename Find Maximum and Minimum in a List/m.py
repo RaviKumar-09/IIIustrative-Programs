@@ -2,6 +2,7 @@ from machine import Pin, I2C
 import ssd1306
 import time
 
+
 # Initialize I2C
 i2c = I2C(0, scl=Pin(3), sda=Pin(2), freq=400000)
 
