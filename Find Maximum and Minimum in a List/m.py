@@ -6,6 +6,7 @@ import time
 # Initialize I2C
 i2c = I2C(0, scl=Pin(3), sda=Pin(2), freq=400000)
 
+
 # Initialize OLED display
 oled_width = 128
 oled_height = 64
