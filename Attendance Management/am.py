@@ -19,6 +19,22 @@ def display_attendance():
     print("\nAttendance Records:")
     for student, status in attendance.items():
         print(f"{student}: {status}")
-
-
+# Main program
+def main():
+    while True:
+        print("\nAttendance Management System")
+        print("1. Mark Attendance")
+        print("2. Display Attendance")
+        print("3. Exit")
+    choice = input("Enter your choice: ").strip()
         
+        if choice == '1':
+            mark_attendance()
+        elif choice == '2':
+            display_attendance()
+        elif choice == '3':
+            print("Exiting the program.")
+            break
+        else:
+            print("Invalid choice. Please try again.")    
+
