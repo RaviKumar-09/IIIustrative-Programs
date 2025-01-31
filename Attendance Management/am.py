@@ -19,4 +19,6 @@ def display_attendance():
     print("\nAttendance Records:")
     for student, status in attendance.items():
         print(f"{student}: {status}")
+
+
         
