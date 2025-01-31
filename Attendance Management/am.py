@@ -14,3 +14,9 @@ def mark_attendance():
             attendance[student] = "Present"
         else:
             attendance[student] = "Absent"
+# Function to display attendance
+def display_attendance():
+    print("\nAttendance Records:")
+    for student, status in attendance.items():
+        print(f"{student}: {status}")
+        
