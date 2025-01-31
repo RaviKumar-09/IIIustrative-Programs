@@ -8,3 +8,9 @@ students = ["Alice", "Bob", "Charlie", "David", "Eva"]
 def mark_attendance():
     print("\nMarking Attendance:")
     for student in students:
+         # Ask for the attendance status (Present or Absent)
+        status = input(f"Is {student} present? (yes/no): ").strip().lower()
+        if status == 'yes':
+            attendance[student] = "Present"
+        else:
+            attendance[student] = "Absent"
