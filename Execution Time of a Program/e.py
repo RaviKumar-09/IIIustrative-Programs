@@ -10,3 +10,4 @@ for _ in range(1000000):
 
 
 # End time
+end_time = time.time()
