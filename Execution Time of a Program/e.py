@@ -13,4 +13,5 @@ for _ in range(1000000):
 end_time = time.time()
 
 # Calculate execution time
-execution_time = end_time - start_time
+execution_time = end_time - start_time\
+print(f"Execution Time: {execution_time:.5f} seconds")
