@@ -9,3 +9,4 @@ def check_pass_fail(marks, passing_marks=35):
 marks = float(input("Enter your marks: "))
 
 # Check result
+result = check_pass_fail(marks)
