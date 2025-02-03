@@ -5,3 +5,4 @@ def check_pass_fail(marks, passing_marks=35):
         return "Pass"
     else:
         return "Fail"
+# Take user input
