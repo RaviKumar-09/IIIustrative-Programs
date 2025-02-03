@@ -6,3 +6,4 @@ def check_pass_fail(marks, passing_marks=35):
     else:
         return "Fail"
 # Take user input
+marks = float(input("Enter your marks: "))
