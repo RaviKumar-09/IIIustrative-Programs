@@ -10,3 +10,4 @@ marks = float(input("Enter your marks: "))
 
 # Check result
 result = check_pass_fail(marks)
+print(f"Result: {result}")
