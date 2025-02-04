@@ -11,3 +11,5 @@ def can_attend_class(total_classes, attended_classes, min_attendance=75):
         return "No, you are not allowed to attend the class. 😞"
     
     # Taking user input
+total_classes = int(input("Enter the total number of classes: "))
+attended_classes = int(input("Enter the number of classes you attended: "))
