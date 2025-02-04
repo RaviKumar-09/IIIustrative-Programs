@@ -1,0 +1,1 @@
+# Function to check if the student can attend class
