@@ -9,3 +9,5 @@ def can_attend_class(total_classes, attended_classes, min_attendance=75):
         return "Yes, you can attend the class. 😊"
     else:
         return "No, you are not allowed to attend the class. 😞"
+    
+    # Taking user input
