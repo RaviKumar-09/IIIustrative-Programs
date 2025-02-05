@@ -17,3 +17,4 @@ for i in range(num_friends):
     friends[name] = available == "yes"
 # Check if all friends can meet
 result = can_friends_meet(friends)
+print(result)
