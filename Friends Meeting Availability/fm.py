@@ -9,3 +9,4 @@ def can_friends_meet(friends):
 friends = {}
 
 # Number of friends
+num_friends = int(input("Enter the number of friends: "))
