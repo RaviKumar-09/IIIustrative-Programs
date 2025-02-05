@@ -11,3 +11,5 @@ friends = {}
 # Number of friends
 num_friends = int(input("Enter the number of friends: "))
 # Get availability from each friend
+for i in range(num_friends):
+    name = input(f"Enter Friend {i+1} Name: ")
