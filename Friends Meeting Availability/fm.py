@@ -16,3 +16,4 @@ for i in range(num_friends):
     available = input(f"Is {name} available? (yes/no): ").strip().lower()
     friends[name] = available == "yes"
 # Check if all friends can meet
+result = can_friends_meet(friends)
