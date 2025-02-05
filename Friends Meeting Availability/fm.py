@@ -6,3 +6,4 @@ def can_friends_meet(friends):
     else:
         return "No, some friends are busy. Try another time. 😞"
 # List of friends
+friends = {}
