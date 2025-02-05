@@ -10,3 +10,4 @@ friends = {}
 
 # Number of friends
 num_friends = int(input("Enter the number of friends: "))
+# Get availability from each friend
