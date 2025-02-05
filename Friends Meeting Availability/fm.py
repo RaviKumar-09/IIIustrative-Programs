@@ -2,3 +2,5 @@
 
 def can_friends_meet(friends):
     if all(friends.values()):
+        return "Yes! All friends are available. You can meet. 😊"
+    else:
