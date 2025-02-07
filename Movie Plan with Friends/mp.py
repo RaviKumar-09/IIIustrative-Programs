@@ -10,3 +10,5 @@ friends = {
 
 if all(availability == "yes" for availability in friends.values()):
     print("Yes! All friends are available. Let's go for a movie! 🎬🍿")
+else:
+    print("Some friends are busy. Plan for another time! 😞")
