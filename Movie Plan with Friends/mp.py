@@ -7,3 +7,6 @@ friends = {
 }
 
 # Check if all friends are available
+
+if all(availability == "yes" for availability in friends.values()):
+    print("Yes! All friends are available. Let's go for a movie! 🎬🍿")
