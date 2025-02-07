@@ -5,3 +5,5 @@ friends = {
     "Arjun": "yes",
     "Sita": "yes"
 }
+
+# Check if all friends are available
