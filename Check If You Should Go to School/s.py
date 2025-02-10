@@ -8,3 +8,5 @@ day = now.strftime("%A")  # Get current day (e.g., Monday, Tuesday)
 
 
 # Check if it's a school day and morning time
+
+if day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"] and hour < 8:
