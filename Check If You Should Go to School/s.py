@@ -11,3 +11,5 @@ day = now.strftime("%A")  # Get current day (e.g., Monday, Tuesday)
 
 if day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"] and hour < 8:
     print("Good to go to school! 📚🏫")
+else:
+    print("No school now! Enjoy your time. 😊")
