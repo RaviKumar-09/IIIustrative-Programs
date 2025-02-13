@@ -1,0 +1,1 @@
+# Dictionary of rooms with availability status
