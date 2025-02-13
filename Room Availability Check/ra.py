@@ -9,3 +9,4 @@ rooms = {
 }
 
 # Function to search for an available room
+def find_available_room():
