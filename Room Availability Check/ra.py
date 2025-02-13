@@ -14,3 +14,5 @@ def find_available_room():
         if status == "Available":
             return f"{room} is available! ✅"
         return "No rooms available. ❌"
+    
+# Check and print available room
