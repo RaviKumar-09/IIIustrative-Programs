@@ -16,3 +16,4 @@ def find_available_room():
         return "No rooms available. ❌"
     
 # Check and print available room
+print(find_available_room())
