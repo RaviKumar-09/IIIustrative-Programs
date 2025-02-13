@@ -12,3 +12,4 @@ rooms = {
 def find_available_room():
     for room, status in rooms.items():
         if status == "Available":
+            return f"{room} is available! ✅"
