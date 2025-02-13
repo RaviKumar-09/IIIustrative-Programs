@@ -7,3 +7,5 @@ rooms = {
     "Room 104": "Occupied",
     "Room 105": "Available"
 }
+
+# Function to search for an available room
