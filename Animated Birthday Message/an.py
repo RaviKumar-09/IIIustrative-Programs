@@ -13,4 +13,6 @@ for char in message:
 
     # time
     time.sleep(0.1)  # Delay to create animation effect
+
+# print
 print("\nHave a fantastic day! 😊")
