@@ -1,6 +1,7 @@
 # Import
 import time
 
+# message
 message = "🎉🎂 Happy Birthday to You! 🎂🎉"
 
 for char in message:
