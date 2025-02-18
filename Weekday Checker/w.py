@@ -9,4 +9,6 @@ date_input = input("Enter a date (YYYY-MM-DD): ")
 try:
    date_obj = datetime.datetime.strptime(date_input, "%Y-%m-%d")
     weekday = date_obj.strftime("%A")  # Get the day of the week
-    print(f"The day of the week for {date_input} is {weekday}.") 
+    print(f"The day of the week for {date_input} is {weekday}.")
+except ValueError:
+    print("Invalid date format! Please enter in YYYY-MM-DD format.")
