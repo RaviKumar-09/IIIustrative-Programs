@@ -8,3 +8,6 @@ data_dict = {
 
 # User input for search
 search_key = input("Enter an ID to search: ")
+# Check if the key exists
+if search_key in data_dict:
+    print(f"✅ ID {search_key} belongs to {data_dict[search_key]}.")
