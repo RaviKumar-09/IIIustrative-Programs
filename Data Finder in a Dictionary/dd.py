@@ -5,3 +5,6 @@ data_dict = {
     "103": "Charlie",
     "104": "David"
 }
+
+# User input for search
+search_key = input("Enter an ID to search: ")
