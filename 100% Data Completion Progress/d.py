@@ -9,3 +9,6 @@ def show_progress():
         bar = "█" * (i // 2) + "-" * ((total // 2) - (i // 2))
         print(f"\rProcessing: [{bar}] {i}%", end="")
     print("\n✅ Data completed 100%!")
+
+# Run the progress bar
+show_progress()
